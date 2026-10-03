@@ -1,0 +1,20 @@
+# Nmap 7.99 scan initiated Sat Oct  3 10:42:41 2026 as: /usr/lib/nmap/nmap --privileged -sV -oN service_detection.txt 10.75.204.30 10.75.204.39
+Nmap scan report for 10.75.204.30 (10.75.204.30)
+Host is up (0.00032s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 90:DE:80:53:0C:D1 (Shenzhen Century Xinyang Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.75.204.39 (10.75.204.39)
+Host is up (0.0070s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+MAC Address: FA:51:85:D9:FA:BA (Unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  3 10:42:53 2026 -- 2 IP addresses (2 hosts up) scanned in 12.34 seconds

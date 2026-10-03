@@ -1,0 +1,23 @@
+# Nmap 7.99 scan initiated Sat Oct  3 10:16:40 2026 as: /usr/lib/nmap/nmap --privileged -sS -oN nmap_scan.txt 10.75.204.0/24
+Nmap scan report for 10.75.204.30 (10.75.204.30)
+Host is up (0.00060s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 90:DE:80:53:0C:D1 (Shenzhen Century Xinyang Technology)
+
+Nmap scan report for 10.75.204.39 (10.75.204.39)
+Host is up (0.0091s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: FA:51:85:D9:FA:BA (Unknown)
+
+Nmap scan report for 10.75.204.71 (10.75.204.71)
+Host is up.
+All 1000 scanned ports on 10.75.204.71 (10.75.204.71) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Sat Oct  3 10:20:08 2026 -- 256 IP addresses (3 hosts up) scanned in 208.18 seconds
